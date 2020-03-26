@@ -26,8 +26,8 @@ public class Pbkdf2 {
     public static final ConexionMysql con = ConexionMysql.getInstance();
     
     public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeySpecException {
-        String data = "HelloWorld";
-        String usuario = "oscarce";
+        String data = "1";
+        String usuario = "pdf";
         int iterations = 65000;
         int keyLength = 256;
         char[] hash = data.toCharArray();

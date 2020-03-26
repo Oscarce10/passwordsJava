@@ -26,14 +26,15 @@ public class AutenticarPbkdf2 {
     public static final ConexionMysql con = ConexionMysql.getInstance();
     
     public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeySpecException {
-        String usuario = "oscarce";
-        String data = "HelloWorld";
+        String usuario = "pdf";
+        String data = "1";
         int iterations = 65000;
         int keyLength = 256;
         
         try {
             PreparedStatement ps = con.getCon().prepareStatement("SELECT * FROM usuario WHERE usuario LIKE ?");
             ps.setString(1, usuario);
+            System.out.println(ps.toString());
             ResultSet rs = ps.executeQuery();
             if(rs.next()){
                 byte[] salt = rs.getBytes("salt");
