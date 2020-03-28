@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/Users/USER/Documents/NetBeansProjects/passwordAlgorithms/src/main/Hashing.java</file>
-            <file>file:/D:/Users/USER/Documents/NetBeansProjects/passwordAlgorithms/src/main/SaltHash.java</file>
-            <file>file:/D:/Users/USER/Documents/NetBeansProjects/passwordAlgorithms/src/conexion/ConexionMysql.java</file>
-            <file>file:/D:/Users/USER/Documents/NetBeansProjects/passwordAlgorithms/src/main/Pbkdf2.java</file>
-            <file>file:/D:/Users/USER/Documents/NetBeansProjects/passwordAlgorithms/src/main/AutenticarPbkdf2.java</file>
-            <file>file:/D:/Users/USER/Documents/NetBeansProjects/passwordAlgorithms/src/main/AutenticarSalt.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
